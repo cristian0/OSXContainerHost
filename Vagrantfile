@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 # Change these to suite your needs / machine
 CPUS   = ENV["OCH_CPUS"] || 4
-MEMORY = ENV["OCH_MEMORY"] || 4096
+MEMORY = ENV["OCH_MEMORY"] || 2455
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "osx-container-host" do |node|
